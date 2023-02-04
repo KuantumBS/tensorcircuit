@@ -1,10 +1,10 @@
 numpy
 scipy
 cirq
-tensorflow==2.7
-tensornetwork==0.4.6
+tensorflow>=2.7
+tensornetwork>=0.4.6
 graphviz
-jax==0.3.4
+jax>=0.3.4
 # jaxlib indepedent specify the version in Dockerfile
 torch
 torchvision
@@ -22,13 +22,13 @@ openfermion
 quimb
 openfermionpyscf
 # below is for development
-mypy==0.782
+mypy>=0.782
 pytest
 pytest-cov
 pytest-benchmark
 pytest-xdist
 pytest-lazy-fixture
-black==22.3.0
+black>=22.3.0
 sphinx>=4.0
 sphinx-intl
 sphinx-copybutton
@@ -37,4 +37,4 @@ furo
 myst-parser
 pylint
 pennylane
-tensorflow_quantum==0.6.1
+tensorflow_quantum>=0.6.1
